@@ -9,8 +9,8 @@ vim.opt.splitbelow = true
 
 vim.cmd([[
 autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=2 shiftwidth=2
-autocmd BufNewFile,BufRead *.lua setlocal noexpandtab tabstop=4 shiftwidth=4
-autocmd BufNewFile,BufRead *.tf setlocal noexpandtab tabstop=2 shiftwidth=2
+autocmd BufNewFile,BufRead *.lua setlocal expandtab tabstop=4 shiftwidth=4
+autocmd BufNewFile,BufRead *.tf setlocal expandtab tabstop=2 shiftwidth=2
 
 colorscheme xoria256
 
